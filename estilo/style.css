@@ -1,0 +1,63 @@
+@charset "UTF-8" ;
+
+*{
+    padding: 0px;
+    margin: 0px;   
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: rgb(0, 0, 0)
+    
+}
+
+header {
+
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+   
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: gainsboro;
+    color: black;
+}
+
+footer{
+    background-color: white;
+    color: black
+    text-align: center;
+    padding: 10px;
+}
+
